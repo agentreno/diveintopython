@@ -1,0 +1,16 @@
+# coding: utf-8
+print(type(True))
+print(type(1))
+print(isinstance(1,int))
+print(type(1+1))
+print(type(1+1.0))
+print(type(1000000000000000000000000))
+import fractions
+x = fractions.Fraction(1,3)
+type(x)
+print(x)
+print(type([]))
+print(type((0,1)))
+print(type({1}))
+print(type({'a':1,'b':2}))
+print(type(None))
