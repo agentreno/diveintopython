@@ -10,3 +10,5 @@ import copy
 a_copydict = copy.copy(a_refdict)
 del a_refdict['d']
 print("But the copy module can copy dictionaries: " + str(a_copydict))
+print("Correctly formatted lists can be dicts:")
+dict([ ['a', 1], ['b', 2] ])
